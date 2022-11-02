@@ -2,6 +2,7 @@ package com.pragra.day7;
 
 public class PracticeWhile {
     public static void main(String[] args) {
+        System.out.println("while loop");
         /*for(int i=1;i<=4;i++){
             for(int j=1;j<=i;j++){
                 System.out.print("*  ");
@@ -19,5 +20,6 @@ public class PracticeWhile {
             System.out.println();
             i++;
         }
+
 
 }}
