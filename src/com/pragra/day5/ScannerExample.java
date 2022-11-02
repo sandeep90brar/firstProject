@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class ScannerExample {
     static int x;
-
     public static void main(String[] args) {
+        System.out.println("This example shows the use of scanner");
         System.out.println("Enter the number :");
         Scanner sc = new Scanner(System.in);
         x = sc.nextInt();
