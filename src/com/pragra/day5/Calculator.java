@@ -1,4 +1,4 @@
-package com.pragra;
+package com.pragra.day5;
 
 public class Calculator {
     public static void main(String[] args) {

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Switch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Program to print days in each month");
         System.out.println("Enter the month number!!!");
         int monthNo = sc.nextInt();
 
