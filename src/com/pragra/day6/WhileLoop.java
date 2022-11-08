@@ -5,6 +5,9 @@ public class WhileLoop {
 
          double compNo=Math.random()*10;
         System.out.println(compNo);
+        System.out.println("Hello World");
+        System.out.println("Hello World");
+        System.out.println("Hello World");
 
     }
 
