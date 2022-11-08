@@ -2,44 +2,39 @@ package com.pragra;
 
 public class Calculator {
     public static void main(String[] args) {
-        sout("Program to perform calculator operations");
-       int sumResult = sum(3, 7);
-        System.out.println("The sum of a and b is :" + sumResult);
+        int sumResult = sum(9, 2);
+        int diffResult = difference(9, 5);
+        int multiplyResult = multiply(6, 4);
+        double divideResult = divide(5, 3);
 
-        int diffResult = diff(10, 5);
-        System.out.println("The diff of a and b is :" + diffResult);
 
-        int mulResult = multiply(10, 5);
-        System.out.println("The multiplication of a and b is :" + mulResult);
+        System.out.println("The sum:" + sumResult);
+        System.out.println("The difference:" + diffResult);
+        System.out.println(" The multiply:" + multiplyResult);
+        System.out.println(" The divide:" + divideResult);
 
-        int divResult = division(10, 5);
-        System.out.println("The division of a and b is :" + divResult);
     }
 
-    public static int sum(int a, int b) {
+    public static int sum(int x, int y) {
 
-        return a+b;
+        return x + y;
     }
-    public static int diff(int a, int b) {
 
-        return a - b;
-    }
-    public static int multiply(int a, int b) {
+    public static int difference(int y, int x) {
+        return y - x;
 
-        return a * b;
     }
-    public static int division(int a, int b) {
 
-        return a / b;
+    public static int multiply(int x, int y) {
+
+        return x * y;
     }
-    public static void GreatestOfNumbers(int a, int b, int c) {
-        if (a > b && a > c) {
-            System.out.println("Largest Number is " + a);
-        } else if (b > a && b > c) {
-            System.out.println("Largest Number is " + b);
-        } else {
-            System.out.println("Largest Number is " + c);
-        }
+
+    public static double divide(double x, double y) {
+        return x / y;
     }
-    }
+
+
+
+}
 
