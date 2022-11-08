@@ -2,7 +2,7 @@ package com.pragra.day5;
 
 public class Calculator {
     public static void main(String[] args) {
-        sout("Program to perform calculator operations");
+        System.out.println("Program to perform calculator operations");
        int sumResult = sum(3, 7);
         System.out.println("The sum of a and b is :" + sumResult);
 
