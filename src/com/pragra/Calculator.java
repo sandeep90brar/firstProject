@@ -2,8 +2,8 @@ package com.pragra;
 
 public class Calculator {
     public static void main(String[] args) {
-
-        int sumResult = sum(3, 7);
+        sout("Program to perform calculator operations");
+       int sumResult = sum(3, 7);
         System.out.println("The sum of a and b is :" + sumResult);
 
         int diffResult = diff(10, 5);
