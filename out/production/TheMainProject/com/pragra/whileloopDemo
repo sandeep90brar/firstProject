@@ -1,0 +1,22 @@
+package com.pragra;
+
+import java.util.Scanner;
+
+public class loops {
+    public static void main(String[] args) {
+    int thoughtNo = (int)(Math.random()*10);
+        System.out.println("lets play the game ");
+        System.out.println("i have thought a number .. you try guessing it");
+        Scanner sc = new Scanner(System.in);
+        int guessedNo;
+        do {
+            System.out.println("Guess your number...keep searching");
+             guessedNo = sc.nextInt();
+        } while (thoughtNo!=guessedNo);
+        System.out.println("you win , guessed right ");
+        System.out.println("This is vivek");
+        }
+
+    }
+
+

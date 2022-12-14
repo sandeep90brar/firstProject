@@ -2,6 +2,8 @@ package com.pragra.day9;
 
 public class StringsDemo {
     public static void main(String[] args) {
+        StringsDemo StringsD = new StringsDemo();
+
         String str1 = "Welcome";
         String str2 = "Welcome";
         String str3=new String("Welcome");
@@ -12,5 +14,8 @@ public class StringsDemo {
         else{
             System.out.println("False");
         }
+    }
+    public  void check(){
+
     }
 }
