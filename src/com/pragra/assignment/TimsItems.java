@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class TimsItems {
     public static void main(String[] args) {
+        System.out.println("WELCOME TO TIM");
         int choice, merchandiseChoice, consumableChoice, order, orderedItems = 0;
         double sum = 0;
         String arr[] = new String[100];

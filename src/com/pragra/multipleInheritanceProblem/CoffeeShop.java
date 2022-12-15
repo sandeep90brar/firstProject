@@ -1,4 +1,4 @@
-package multipleInheritanceProblem;
+package com.pragra.multipleInheritanceProblem;
 
 public class CoffeeShop implements Restaurant,OvenFresh{
     public void canOrderOnline(){

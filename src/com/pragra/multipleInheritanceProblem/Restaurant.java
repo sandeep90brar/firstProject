@@ -1,4 +1,4 @@
-package multipleInheritanceProblem;
+package com.pragra.multipleInheritanceProblem;
 
 interface Restaurant {
     public void canOrderOnline();

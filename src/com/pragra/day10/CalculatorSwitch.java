@@ -3,8 +3,10 @@ package com.pragra.day10;
 import java.util.Scanner;
 
 public class CalculatorSwitch {
+
     public static void main(String[] args) {
-        System.out.println("***************");
+
+        System.out.println("*********************");
         System.out.println("1.Addition");
         System.out.println("2.Subtraction");
         System.out.println("3.Multiplication");
